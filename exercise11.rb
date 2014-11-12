@@ -1,8 +1,8 @@
-print "How old are you? "
+puts "Enter your first name: "
+fname = gets.chomp
+puts "Enter your last name: "
+lname = gets.chomp
+puts "Enter your age: "
 age = gets.chomp
-print "How tall are you? "
-height = gets.chomp
-print "How much do you weigh? "
-weight = gets.chomp
 
-puts "So, you're #{age} old, #{height} tall and #{weight} heavy."
+print "So, you're name is #{fname} #{lname} and you are #{age} years old."
