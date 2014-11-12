@@ -1,12 +1,5 @@
-print "Give me a number: "
-number = gets.chomp.to_f
+print "How much do you have: "
+amount = gets.chomp.to_f
 
-bigger = number * 100
-puts "A bigger number is #{bigger}."
-
-print "Give me another number: "
-another = gets.chomp
-number = another.to_f
-
-smaller = number / 100
-puts "A smaller number is #{smaller}."
+rate =amount * 0.10 #calculating 10% of the amount in hand.
+puts "The rate of the amount you have is #{rate}"
