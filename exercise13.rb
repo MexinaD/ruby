@@ -1,5 +1,7 @@
-first, second, third = ARGV
-
-puts "Your first variable is: #{first}"
-puts "Your second variable is: #{second}"
-puts "Your third variable is: #{third}"
+ school, church, home, store = ARGV
+  
+  puts "The place to learn is #{school}"
+  puts "The place to pray is #{church}"
+  puts "The place to rest is #{home}"
+  puts "The place to buy things is #{store}"
+  
