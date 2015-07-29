@@ -1,12 +1,12 @@
-user_name = ARGV.first
+first_name, last_name = ARGV
 give  = '>>> '
 
-puts "Hi #{user_name}."
+puts "Hi #{first_name} #{ last_name}."
 puts "I'd like to ask you a few questions."
-puts "Do you like me #{user_name}?", give
+puts "Do you like me #{first_name} #{ last_name}?", give
 likes = $stdin.gets.chomp
 
-puts "Where do you live #{user_name}?", give
+puts "Where do you live #{first_name} #{ last_name}?", give
 lives = $stdin.gets.chomp
 
 puts "What kind of computer do you have?", give
