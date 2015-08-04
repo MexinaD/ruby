@@ -7,6 +7,7 @@ end
 
 
 puts "We can just give the function numbers directly:"
+#this line calls the above method with variables as arguments
 cheese_and_crackers(20, 30)
 
 
@@ -14,12 +15,15 @@ puts "OR, we can use variables from our script:"
 amount_of_cheese = 10
 amount_of_crackers = 50
 
+#this line calls the above method that its variables were decleared in a script
 cheese_and_crackers(amount_of_cheese, amount_of_crackers)
 
 
 puts "We can even do math inside too:"
+#this line calls the above method with the value of the variables as parameters 
 cheese_and_crackers(10 + 20, 5 + 6)
 
 
 puts "And we can combine the two, variables and math:"
+#this shows calcuation can be done in the parentheless
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
