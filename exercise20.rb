@@ -39,13 +39,12 @@ current_line = 1
 print_a_line(current_line, current_file)
 
 #adding number of ne to two, second line
-current_line = current_line + 1
+current_line += 1
 #print the second line
 print_a_line(current_line, current_file)
 
 #adding number of ne to three, third line
-current_line = current_line + 1
+current_line += 1
 #print the third line
 print_a_line(current_line, current_file)
-
 
