@@ -1,38 +1,22 @@
-people = 20
-cats = 30
-dogs = 15
 
-
-if people < cats
-  puts "Too many cats! The world is doomed!"
-end
-
-if people > cats
-  puts "Not many cats! The world is saved!"
-end
-
-if people < dogs
-  puts "The world is drooled on!"
-end
-
-if people > dogs
-  puts "The world is dry!"
-end
-
-
-dogs += 5
-
-if people >= dogs
-  puts "People are greater than or equal to dogs."
-end
-
-if people <= dogs
-  puts "People are less than or equal to dogs."
-end
-
-
-if people == dogs
-  puts "People are dogs."
-end
-
+    true && true
+    false && true
+    1 == 1 && 2 == 1
+    "test" == "test"
+    1 == 1 || 2 != 1
+    true && 1 == 1
+    false && 0 != 0
+    true || 1 == 1
+    "test" == "testing"
+    1 != 0 && 2 == 1
+    "test" != "testing"
+    "test" == 1
+    !(true && false)
+    !(1 == 1 && 0 != 1)
+    !(10 == 1 || 1000 == 1000)
+    !(1 != 10 || 3 == 4)
+    !("testing" == "testing" && "Zed" == "Cool Guy")
+    1 == 1 && (!("testing" == 1 || 1 == 0))
+    "chunky" == "bacon" && (!(3 == 4 || 3 == 3))
+    3 == 3 && (!("testing" == "testing" || "Ruby" == "Fun"))
 
