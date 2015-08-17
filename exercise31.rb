@@ -1,3 +1,5 @@
+def game()
+
 puts "Choose the folded paper you want"
 puts "Paper 1"
 puts "Paper 2"
@@ -28,5 +30,9 @@ puts "You didnt pay attention in biology class"
 end
 
 else
-puts "You choose a simple question \n Choose again "
+puts "You choose a simple question \n Choose again"
+game()
 end
+end
+puts "Let the game start"
+game()
