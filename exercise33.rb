@@ -1,12 +1,12 @@
-def loop(numb)
+def loop(numb1, numb2)
 
 i = 0
 numbers = []
-while i < numb
+while i <= numb1
   puts "At the top i is #{i}"
   numbers.push(i)
 
-  i += 1
+  i += numb2
   puts "Numbers now: ", numbers
   puts "At the bottom i is #{i}"
 end
@@ -16,4 +16,4 @@ puts "The numbers: "
 numbers.each {|num| puts num }
 end
 
-loop(5)
+loop(12 , 3)
