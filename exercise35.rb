@@ -5,6 +5,7 @@ def gold_room
   choice = $stdin.gets.chomp
 
   # this line has a bug, so fix it
+  #Though i dont know what that error is
   if choice.include?("0") || choice.include?("1")
     how_much = choice.to_i
   else
@@ -88,3 +89,5 @@ def start
 end
 
 start
+
+
