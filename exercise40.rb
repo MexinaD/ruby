@@ -8,13 +8,15 @@ class Song
     @lyrics.each {|line| puts line }
   end
 end
-
-happy_bday = Song.new(["Happy birthday to you",
+bday = ["Happy birthday to you",
            "I don't want to get sued",
-           "So I'll stop right there"])
+           "So I'll stop right there"]
+		   
+parade = ["They rally around tha family",
+            "With pockets full of shells"]
 
-bulls_on_parade = Song.new(["They rally around tha family",
-            "With pockets full of shells"])
+happy_bday = Song.new(bday)
+bulls_on_parade = Song.new(parade)
 
 happy_bday.sing_me_a_song()
 
