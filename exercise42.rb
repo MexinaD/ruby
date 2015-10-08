@@ -9,6 +9,15 @@ class Dog < Animal
     ## Dog has-a name
     @name = name
   end
+  
+  def berk (sound)
+  ## dog has -a sound
+  @sound = sound
+  puts "Dog can berk #{sound} when it see new faces"
+  end
+  
+  #This code doesnt want to run..... Want to call the above method
+  #berk "Huuhuu!!"
 end
 
 ## Cat is-a object of Animal
@@ -80,8 +89,8 @@ frank.pet = rover
 ## flipper is-a Fish that has-a new 
 flipper = Fish.new()
 
-## crouse is-a Halibut that has-a new 
+## crouse is-a Salmon that has-a new 
 crouse = Salmon.new()
 
-## harry is-a Fish that has-a new 
+## harry is-a Halibut that has-a new 
 harry = Halibut.new()
