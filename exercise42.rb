@@ -20,6 +20,8 @@ class Dog < Animal
   #berk "Huuhuu!!"
 end
 
+#The above two functions shows that dog has name and sound... has-many
+
 ## Cat is-a object of Animal
 class Cat < Animal
 
